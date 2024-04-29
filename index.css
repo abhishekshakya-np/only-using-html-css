@@ -124,28 +124,63 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Article heading */
+/* body class for heading */
 body h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 15px;
 }
 
-/* Article paragraph */
+/* body class for paragraph */
 .body p {
   font-size: 16px;
   color: #666;
   line-height: 1.6;
 } 
 
+ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  padding-left: 20px; /* Add padding to create space between bullet and text */
+  margin: auto;
+}
+
+/* Style the data elements inside list items */
+li data {
+  display: inline-block; /* Display data elements as blocks */
+}
+
+/* Styles for aside */
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray; 
+}
+
+/* Center the content */
+main {
+  padding: 20px;
+  min-height: 400px; /* Example height for content */
+}
 /* Center the content */
 /* Styles for top-level container */
 .avo {
+  
   margin: auto;
   max-width: 900px;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  max-width: 900px;
+
+
 }
 
 /* Styles for the Avocado tech text */
@@ -479,7 +514,8 @@ body h2 {
 
 /* Styles for footer section */
 .footer {
-  position: fixed; /* Position the footer */
+  position: relative; /* Position the footer */ 
+  /* Ensure footer respects document flow */
   bottom: 0; /* Position at the bottom of the viewport */
   left: 0; /* Position at the left edge of the viewport */
   width: 100%; /* Full width */
@@ -491,6 +527,7 @@ body h2 {
   font-family: ABeeZee;
   padding: 20px; /* Adjust padding as needed */
   box-sizing: border-box;
+
 }
 
 
