@@ -55,7 +55,10 @@ h3 {
     /* sticky: Positions the element relative to the users scroll position */
     position: sticky;
     top: 3px;
+    background-color: #dae6d0;
 }
+
+
 .navbar {
     background-color: #f5bcbc;
     overflow: hidden;
@@ -119,3 +122,106 @@ a:active {
 .btn:hover {
     background-color: #b6ffe9;
 }
+
+
+.boxes {
+    width: 570px;
+    height: 570px;
+    border: 2px solid black;
+}
+
+#box-1   { 
+    position: relative;
+    top: 49px;
+    z-index: -165;
+    background-color: navy;        
+}
+
+#box-2   {  
+    position: relative;
+    top: 14px;
+    /* z-index  will work only for position: relative, absolute, fixed or sticky; */
+    z-index: -165;
+
+    /* will hide the element and the space */
+    /* display: none;  */
+    /* will hide the element but will show its empty space */
+    /* visibility:hidden;  */
+    background-color: silver;        
+    }
+
+#box-3  {  
+    background-color: floralwhite;
+}
+#box-4 { 
+    background-color: olive;
+    background: url('/image/Flexbox.png');
+    background-size: contain;
+    background-position: center; /* Center the background image horizontally and vertically */
+}
+
+
+.flexbox {
+    height: 544px; 
+    width: 100%;
+    border: 2px solid rgb(255, 0, 0);
+    display: flex; /* Initialize the container as a flex box */
+    
+    /* Flex properties for a flex container */
+
+    /* flex-direction: row; (Default value of flex-direction is row) */
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    
+
+    /* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
+    /* flex-wrap: wrap-reverse; */
+
+    /* This is a shorthand for flex-direction: and flex-wrap: ;; */
+    /* flex-flow: row-reverse wrap; */ 
+
+    /* justify-content will justify the content in horizontal direction */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /* justify-content will justify the content in vertical direction */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */ 
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+
+#item-1 {
+    /* Flex properties for a flex item */
+    /* Higher the order, later it shows up in the container */
+    /* order: 2; */
+    background-color: rgb(104, 0, 0);
+    /* flex-grow: 2;
+    flex-shrink: 2; */
+
+}
+#item-2 {
+    /* flex-grow: 3;
+    flex-shrink: 3 ; */
+    flex-basis: 160px;
+    /* when flex-direction is set to row flex-basis: will control width */
+    /* when flex-direction is set to column flex-basis: will control height */
+}
+#item-3 {
+    /* flex: 2 2 230px; */
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+
+    }
