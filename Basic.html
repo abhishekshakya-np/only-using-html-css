@@ -1,0 +1,60 @@
+Basic Structure of a Website
+Title, Script, Link & Meta Tags
+Headings & Paragraphs
+Img and Anchor tags
+Lists and Tables
+
+<!-- This is doctype -->
+<!DOCTYPE html>
+<!-- Our HTML code starts here -->
+<html lang="en">
+<!-- Our Head tag starts here -->
+
+<head>
+    <!-- It simply means that the characters that are used will be of UTF-8. It declares the page’s character encoding. It
+    should contain a standard IANA MIME name for character encodings. Moreover, authors are encouraged to use UTF-8. -->
+    <meta charset="UTF-8">
+
+    <!-- This tag is used to make your website responsive and adjust its width in such a way that it looks good in both 
+    PC or mobile. It helps in making the website mobile friendly also. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- It helps any particular website to open in the highest compatibility mode available. It is mostly for those 
+        who are still using Internet Explorer. Because there are still some people who have not upgraded their system and are still using the older versions. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <!-- To add descriptions and keywords on our website, we still use meta tags. -->
+    <!-- To add a description, we have to write the above statement and write your own description in the content part. -->
+    <meta name="description" content="This is description">
+
+    <!-- Keywords are those special words through which a user reach any website. You can add the keywords in the content part of the tag. -->
+    <meta name="keywords" content="html, html tutorials, web development">
+
+    <!-- If we want our website to be indexed in Google or other search engines and bots should follow all the links present on the website, then -->
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Document</title>
+
+    <!-- This is how you include external css -->
+    <link rel="stylesheet" href="harry.css">
+
+
+
+    <!-- This is how you include external JavaScript -->
+    <script src="harry.js"></script>
+
+</head>
+<!-- Our Body tag starts here -->
+
+<body>
+    <h1>This is heading</h1>
+    <p>This is a paragraph</p>
+    <!-- to open the website in a new tab then you have to add a new attribute in the anchor tag I.e. “target" -->
+    <a href="https://google.com" target="_blank">Go to google</a><br>
+
+    <!-- Image is not present hence alt text is shown -->
+    <!-- In the “alt" tag, we generally input a keyword of the image that can define the image in case the user can’t see the image. -->
+    <img src="https://source.unsplash.com/200x110/?nature,water" alt="remote image" width="233" height="34">
+</body>
+
+</html>
