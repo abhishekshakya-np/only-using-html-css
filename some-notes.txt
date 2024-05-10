@@ -1,0 +1,45 @@
+block-level elements in HTML:
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> 
+<fieldset> <figcaption> <figure><footer><form><h1>-<h6> <header> <hr> <li> <main>
+<nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video> 
+
+inline elements in HTML:
+
+<a><abbr><acronym><b><bdo><big><br><button><cite>
+<code><dfn><em><i><img><input><kbd><label><map>
+<object><output><q><samp><script><select><small>
+<span><strong><sub><sup><textarea><time><tt><var>
+
+
+How to center div 4 ways
+1st)
+ width: 300px;
+  margin: auto;
+
+2nd)
+Using Flexbox (recommended for modern browsers)
+display: flex;
+   justify-content: center; /* Horizontally center the content */
+   align-items: center; /* Vertically center the content */
+
+3rd)
+Using Absolute Positioning.container {
+  position: relative; /* Ensure relative positioning for absolute centering */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Shift the element back by 50% of its own width and height */
+}
+
+
+4th)
+.container {
+  display: grid;
+  place-items: center; /* Center the content both horizontally and vertically */
+}
+
+
+
