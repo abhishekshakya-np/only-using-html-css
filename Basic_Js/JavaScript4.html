@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Basic_Js/style.css">
+  <title>JavaScript Practice</title>
+</head>
+<body>
+  <div>
+    <button type="button">
+      <a href="/Basic_Js/JavaScript.html">GO back</a>
+    </button>
+  </div>
+  <p>Click the light bulb to turn on/off the light.</p>
+
+  <button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the
+    light</button>
+  <img id="myImage" onclick="changeImage()" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+  <button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the
+    light</button>
+
+  <script src="myScript.js"></script>
+</body>

@@ -8,3 +8,8 @@ function changeImage() {
     }
 }
 
+
+document.getElementById('colorButton').addEventListener('click', function () {
+    document.getElementById('heading').textContent = 'Did I not tell you that I know some JavaScript?';
+  });
+  
