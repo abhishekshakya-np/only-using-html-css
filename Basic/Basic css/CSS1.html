@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Tutorial</title>
+    <style>
+        /* Internal CSS */
+        p {
+            color: rgb(0, 0, 0);
+            background-color: rgb(214, 230, 221) !important;
+            font-size: larger;
+        }
+        li {
+            color: rgb(0, 0, 0);
+            background-color: rgb(230, 227, 214) !important;
+            font-size: larger;
+        }
+    </style>
+    <link rel="stylesheet" href="tut13.css">
+</head>
+
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <!-- <p style="color: red; background-color: yellow;">This tutorial will teach you everything you need to know about HTML/CSS</p> -->
+    <p>
+    <ul>
+        <li><strong>CSS gives style to raw HTML</strong></li>
+        <li><strong>It stands for Cascading Style Sheets</strong></li>
+        <li><strong>CSS is used to give style to our web pages</strong></li>
+        <li><strong>CSS is used to make websites responsive</strong></li>
+        <li><strong>CSS takes the responsibility of design in your websites</strong></li>
+    </ul>
+    <details>CSS includes all the things which can be used to design the raw
+        HTML from colouring the background and texts, to adjust the borders,
+        give padding, etc. Moreover, CSS helps in making websites responsive.
+        Responsive means that the site will behave accordingly to the different
+        screen sizes. For example, if you open a website on a desktop and then on your
+        mobile, you will find the difference between their displays. All the
+        components in a navigation bar will move into a hamburger icon if you open the website on mobile.<br>
+
+        We can add styles in the HTML part itself, but I would rather recommend making a
+        new CSS file and then attach it to the HTML part. It is so because it is a professional
+        practice when different developers are working on a single website to keep the
+        skeleton of a website in one file and the styling in another file.<br><br>
+    </details>
+    </p>
+
+    <h3>Role of CSS<br></h3>
+
+    <ul>
+        <li>CSS is a style sheet language that is used to handle the presentation of the web page containing HTML.</li>
+        <li>It makes our websites beautiful and modern looking.</li>
+    </ul>
+
+    <h4> The syntax of CSS is <br></h4>
+    <h2> P { color: blue; }</h2>
+
+    <img src="Sc1.png" alt="">
+    <ul>
+        <li><em>P</em> stands for the selector and it decides which part of the HTML the CSS will be applied. It states
+            <em>where </em>the CSS property is to be applied.</li>
+        <li>Property is used to describe which property you want to change or add. Whether you have to change colour,
+            border, background, width, all these come under property.&nbsp;</li>
+        <li>The last section is for defining the value. All the properties will be changed according to the value we
+            provide.</li>
+    </ul>
+
+    <h1> We can also target multiple properties at one time. The syntax is as follows<br></h1>
+    <p>header, p.intro { background-color: red;<br>
+        border-radius: 3px,<br>
+        }</p>
+    <img src="Scr2.png" alt="">
+    <p>In the above example, we have changed the <strong>header</strong> tag and the <strong>paragraph</strong> tag with
+        a class <strong><em>intro</em></strong> to change the background colour to<strong> red</strong> and
+        border-radius to <strong>3 pixels.</strong></p>
+        <p><strong>There are three ways to Add CSS-
+            Inline, Internal & External CSS
+        </strong></p>
+        <ol>
+            <li>Inline CSS- CSS is added to the elements directly using the style attributes.</li>
+            <!-- <h1>This is CSS tutorial</h1>
+            <p style= “color:rgb(255, 0, 0);”>This tutorial will teach you everything you need to know about CSS</p> -->
+            <li>Internal CSS- CSS is kept inside the head tags in &lt;style&gt; tags</li>
+            <li>External CSS- CSS is kept separately inside a .CSS style sheet. It involves two steps-</li>
+            </ol>
+            <ul>
+                <li style="list-style-type: none;">
+                <ul>
+                <li>First, write the CSS in.CSS file.</li>
+                <li>Include that CSS file to Markup.</li>
+                </ul>
+                </li>
+                </ul>
+
+</body>
+
+</html>

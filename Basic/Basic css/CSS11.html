@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Size units</title>
+    <style>
+        html{
+            font-size: 25px;
+        }
+        .container{
+            width:400px;
+            /* height: 344px; */
+            height: 100vh;
+            width: 100vw;
+            font-size: 10px;
+            border :2px solid red;
+        }
+    h1{
+        text-align: center;
+    }
+    /* #first{
+        font-size: 3em;
+        padding: 3em; 
+
+    }
+    #second{
+         font-size: 3rem;
+        padding: 3rem; 
+
+    } */
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">em-&nbsp;
+            <ul>
+            <li>
+            <p>Font-sizes are inherited relative to the parent element.</p>
+            </li>
+            <li>
+            <p>10em means ten times of the parent element.</p>
+            </li>
+            </ul>
+        </h1>
+        <h1 id="second">rem-
+            <ul>
+                <li>
+                <p>Font-size gets set according to the font-size of the root element.</p>
+                </li>
+                <li>
+                <p>In general, &lt;html&gt; is the root element.</p>
+                </li>
+                <li>
+                <p>In rem, "r" stands for "root."</p>
+                </li>
+                </ul>
+        </h1>
+        <h1 id="third">vw-
+            <ul>
+                <li>
+                <p>It stands for viewport width.</p>
+                </li>
+                <li>
+                <p>Similar to vh, vw is equal to the 1/100 times of the viewport width.</p>
+                </li>
+                <li>
+                <p>Example: Suppose width of the browser is 1000px, so 1vw is equaled to (1/100)*1000= 10px.</p>
+                </li>
+                </ul>
+        </h1>
+        
+    </div>
+</body>
+</html>
