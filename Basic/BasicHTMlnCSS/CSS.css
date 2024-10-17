@@ -1,0 +1,784 @@
+/* Container for the grid */
+.htmlTutorial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Gap between the grid items */
+    padding: 20px;
+}
+
+/* Styling for each grid item */
+.htmlTutorial>div {
+    border: 1px solid #ccc;
+    /* Optional: Adds a border to each grid item */
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Optional: Background color for better visibility */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+}
+
+/* Class selector */
+.css {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Gap between the grid items */
+    padding: 20px;
+}
+
+/* Styling for each grid item */
+.css>div {
+    border: 1px solid #ccc;
+    /* Optional: Adds a border to each grid item */
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Optional: Background color for better visibility */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+}
+
+/*  p , li   Grouping selector */
+.css>p,
+li {
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 230, 221) !important;
+    font-size: larger;
+}
+
+/* Container for the grid */
+.elementSelector {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Gap between the grid items */
+    padding: 20px;
+}
+
+/* Styling for each grid item */
+.elementSelector>div {
+    border: 1px solid #ccc;
+    /* Optional: Adds a border to each grid item */
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Optional: Background color for better visibility */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+}
+
+.cssFont {
+    font-family: 'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    /* 1/96th of an inch */
+    line-height: 1.3em;
+}
+
+
+/* Id selector */
+#firstPara {
+    background-color: red;
+    height: 100px;
+    width: 455px;
+    border: 4px solid green;
+    /* border-width: 4px;
+    border-color: green;
+    border-style: solid;  */
+    border-radius: 11px;
+    color: green;
+}
+
+#secondPara {
+    background-color: rgb(58, 243, 98);
+    height: 100px;
+    width: 455px;
+    border-top: 2px solid rgb(231, 22, 231);
+    border-right: 2px solid rgb(18, 10, 133);
+    border-bottom: 2px solid rgba(9, 144, 27, 0.774);
+    border-left: 2px solid rgb(156, 42, 13);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 24px;
+}
+
+#thirdPara {
+    height: 500px;
+    width: 455px;
+    background-image: url('https://codewithharry.com/static/common/img/photo.png');
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    /* repeat-x and repeat-y will make it repeat on x and y axis */
+    /* background-position: 192px 34px; */
+    background-position: center center;
+    /* background-position: bottom right; */
+    /* background-position: top center; */
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boxModel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Gap between the grid items */
+    padding: 20px;
+}
+
+/* Styling for the first big div */
+.boxModel>div:first-child {
+    grid-column: span 3;
+    /* Makes the first div span all three columns */
+    background-color: #f0f0f0;
+    /* Optional: Background color for visibility */
+    padding: 15px;
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+    width: 100%;
+    /* Takes up the entire width */
+}
+
+.boxModel>div {
+    border: 1px solid #ccc;
+    /* Optional: Adds a border to each grid item */
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Optional: Background color for better visibility */
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+}
+
+.container {
+    background-color: #D0A2FB;
+    border: 3px solid #1e0733;
+
+    /* We can set margin/padding for  top, bottom, left and right like this */
+    /* padding-top: 79px;
+    padding-bottom: 79px;
+    padding-left: 34px; 
+    padding-right: 79px;*/
+
+    /* margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 34px;
+    margin-right:5px ; */
+
+    /* margin = top right bottom left;  */
+    /* padding = top right bottom left;  */
+
+    /* padding: 23px 56px 6px 78px;   */
+    /* margin: 23px 56px 6px 78px;   */
+
+    /* padding: y(top/bottom) x(left/right); */
+    /* margin: y(top/bottom) x(left/right); */
+    padding: 34px 19px;
+    margin: 14px 19px;
+    border-radius: 23px;
+    /*apply an arc type shape in each corner */
+    width: 533px;
+}
+
+.containerAlign {
+    width: 900px;
+    border: 3px solid purple;
+    background-color: rgb(250, 226, 205);
+    margin: 33px auto;
+}
+
+.item {
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: rgb(248, 238, 238);
+}
+
+#fruit {
+    float: right;
+    width: 48%;
+}
+
+#computer {
+    float: left;
+    width: 48%;
+}
+
+#stationary {
+    /* float: left; */
+    clear: both;
+    clear: left;
+    width: 100%;
+}
+
+
+.para,
+.compare {
+    /* text-align: right;
+           text-align: left;
+           text-align: justify;*/
+    text-align: center;
+}
+
+.headingOne {
+    margin: 23px auto;
+    width: 455px;
+}
+
+.stylingLink_Button {
+    border: 2px solid red;
+    background-color: rgb(223, 245, 201);
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+
+btnA {
+    /* To remove the underline in the link part */
+    text-decoration: none;
+    color: black;
+}
+
+/* Hover is used to change the color of text or background of a button as soon as you hover that part. The code for this is as below. */
+btnA:hover {
+    color: rgb(5, 0, 0);
+    background-color: rgb(221, 166, 38);
+}
+
+/* The next Pseudo selector is Visited. As soon as you visit the anchor tag button and click the link mentioned, it changes its color. */
+btnA:visited {
+    background-color: yellow;
+}
+
+/* The next selector is Active. If you visit any button, and click it, it becomes active and showcases with different properties. */
+btnA:active {
+    background-color: darkblue;
+}
+
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: crimson;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    color: darkgoldenrod;
+    background-color: rgb(223, 245, 201);
+    border: 2px solid black;
+}
+
+
+/* NAVIGATION BAR */
+/* change the color of the navigation bar and make its ends circular */
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+/* Below code, the background gets removed as it has been overflown by the parent element. To avoid this */
+.navbar ul {
+    overflow: auto;
+}
+
+/* make all the nav elements come in single horizontal line */
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+/* add padding to the all the elements present in the list */
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: red
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+/* style the menu available in the navigation bar */
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+
+/* to bring all the elements to the center of the webpage */
+.top {
+    border: 2px solid red;
+    margin: auto;
+    width: 1200px;
+}
+
+/* “img” is inline and therefore, to make it come to center, we have to set the property display as block */
+.logo {
+    margin: auto;
+    display: block;
+    width: 34px;
+}
+
+.displayProperty {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.box {
+    border: 4px solid black;
+    background-color: rgb(204, 202, 202);
+    margin: 4px 0px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.containerDisplay {
+    margin: auto;
+    width: 1200px;
+}
+
+
+.displayContainer {
+    border: 2px solid black;
+    background-color: rgb(176, 175, 172);
+    height: 175px;
+}
+
+/* CSS Position: static (default), relative, absolute, fixed, sticky */
+.boxDisplay {
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.774);
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+
+#box3 {
+    /* relative: Positions the element relative to its normal positon and will leave a gap at its normal position*/
+    /* position: relative; */
+
+    /* absolute: Positions the element relative to the positon of its first parent*/
+    /* position: absolute; */
+
+    /* top: 34px;
+        left: 134px; */
+
+    /* fixed: Positions the element relative to the browser window; */
+    /* position: fixed;
+        right: 4px;
+        bottom: 2px */
+
+    /* sticky: Positions the element relative to the users scroll position */
+    position: sticky;
+    top: 3px;
+
+
+}
+
+
+
+.indexBox {
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+
+#indexBox-1 {
+    position: relative;
+    top: 49px;
+    z-index: -35;
+    background-color: green;
+}
+
+#indexBox-2 {
+    position: relative;
+    top: 14px;
+    /* z-index  will work only for position: relative, absolute, fixed or sticky; */
+    z-index: -165;
+    /* will hide the element and the space */
+    /* display: none;  */
+    /* will hide the element but will show its empty space */
+    /* visibility:hidden;  */
+    background-color: red;
+}
+
+#indexBox-3 {
+    background-color: blue;
+}
+
+#indexBox-4 {
+    background-color: yellow;
+}
+
+
+
+.containerFlex {
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /* Initialize the container as a flex box */
+
+    /* Flex properties for a flex container */
+
+    /* flex-direction: row; (Default value of flex-direction is row) */
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+
+    /* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
+    /* flex-wrap: wrap-reverse; */
+
+    /* This is a shorthand for flex-direction: and flex-wrap: ;; */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify-content will justify the content in horizontal direction */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /* justify-content will justify the content in vertical direction */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+}
+
+.itemFlex {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+
+/* #itemFlex-1{
+    /* Flex properties for a flex item */
+/* Higher the order, later it shows up in the container */
+/* order: 2; */
+
+/* flex-grow: 2;
+    flex-shrink: 2; */
+
+
+#itemFlex-2 {
+    /* flex-grow: 3;
+    flex-shrink: 3 ; */
+    flex-basis: 160px;
+    /* when flex-direction is set to row flex-basis: will control width */
+    /* when flex-direction is set to column flex-basis: will control height */
+}
+
+#itemFlex-3 {
+    /* flex: 2 2 230px; */
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+
+}
+
+.containerSize {
+    width: 400px;
+    /* height: 344px; */
+    height: 50vh;
+    width: 100vw;
+    font-size: 10px;
+    border: 2px solid red;
+}
+
+.headSize {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* #first{
+        font-size: 3em;
+        padding: 3em; 
+
+    }
+    #second{
+         font-size: 3rem;
+        padding: 3rem; 
+
+    } */
+
+
+.boxQueries {
+    font-size: 72px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+@media only screen and (max-width:300px) {
+    #boxQueries-1 {
+        display: block;
+        background-color: cyan;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:500px) {
+    #boxQueries-2 {
+        display: block;
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 500px) and (max-width:800px) {
+    #boxQueries-3 {
+        display: block;
+        color: black;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 800px) {
+    #boxQueries-4 {
+        display: block;
+        background-color: green;
+    }
+}
+
+.selectors{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* if p is contained by any li which is contained by div */
+/* div li p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} */
+
+/* if p is right inside div then this CSS will be applied */
+/* div > p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} */
+
+/* if p is right after div i.e p is the next sibling of div*/
+/* div + p{
+    color: white;
+    background-color: rgb(238, 137, 137);
+} */
+
+.pseudoContainer {
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+
+.myInputClass {
+    display: block;
+}
+/* To select the input of type text only */
+.myInputClass[type='text'] {
+    padding: 23px;
+    border: 2px solid red;
+}
+
+.pseudoAnchorTag[target] {
+    font-size: 44px;
+    color: violet;
+}
+
+.pseudoAnchorTag[target='_self'] {
+    font-size: 14px;
+    color: rgb(13, 22, 151);
+}
+
+.myInputClass[type='email'] {
+    color: yellow;
+    border: 4px solid black;
+}
+
+/* This will apply css for third child */
+/* .itemAttribute:nth-child(3){
+color: cyan;
+}
+
+li:nth-child(2n+0){
+color: red;
+} */
+
+.itemAttribute:nth-child(3n+3) {
+    color: red;
+}
+
+/* Odd child */
+/* .itemAttribute:nth-child(odd){
+background-color: yellow;
+} */
+
+/* Even child */
+.itemAttribute:nth-child(even) {
+    background-color: yellow;
+}
+
+
+:root{
+    --primary-color: blue;
+    --danger-color: red;
+    --maxw: 333px;
+}
+.Kon{
+    width:200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--danger-color);
+    box-shadow: 3px 3px var(--box-color);
+    margin: 2px 9px;
+}
+.akon{ 
+    max-width: var(--maxw);
+    margin: auto;
+    background-color: var(--danger-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--box-color); */
+}
+
+.containerAnimations {
+    background-color: greenyellow;
+}
+
+.boxKeyframes {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* animation-name: expandWidth; */
+    animation-name: moveInSquare;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 3s; */
+    /* animation-direction: reverse;  */
+
+    /* These properties can be set using this shorthand */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+    /* animation: harry 5s ease-in 1s 12 backwards; */
+
+}
+
+@keyframes moveInSquare  {
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }
+    
+}
+@keyframes expandWidth  {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 1400px;
+    }
+
+} .containerTransform{
+    height: 80vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxTransform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: brown;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+    transition: all 0.5s ease-in-out;
+} 
+.boxTransform:hover{
+    /* transform: rotate(360deg); */
+    /* transform: skew(40deg); */
+    /* transform: scale(2); */
+    /* transform: translateX(123px); */
+    /* transform: translateY(123px); */
+    transform: translate(123px, 123px);
+
+}
+
+bodyTransitions{
+    background-color: black;
+}
+#boxTransitions{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+
+    /* Transition short hand property in one line */
+    /* transition: background-color 1s ease-in-out 2s; */
+
+    
+    transition: all 1s ease-in-out .3s;
+}
+
+#boxTransitions:hover{
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+    font-size: 45px;
+
+}
