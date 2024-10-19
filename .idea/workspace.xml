@@ -5,140 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20bcc41f-03b3-4c61-a369-9dc46852709b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3D-animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3D-animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InlineTailwindHTML/Hyperlink.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InlineTailwindHTML/coffee.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InlineTailwindHTML/computer.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InlineTailwindHTML/gaming.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InlineTailwindHTML/sucess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio-Project/img/project1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio-Project/img/project2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio-Project/img/project3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Hyperlink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/email.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/xabickx.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/workplace.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/README-template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/active-states.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/desktop-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/desktop-preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/desktop-success-active.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/desktop-success.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/error-states.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/mobile-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/design/mobile-success.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/style-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsletter-sign-up-with-success-message-main/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.frontmatter/database/taxonomyDb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/InlineTailwindHTML/loader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNewsLetter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNewsLetter/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmailNewsLetter/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/EmailNewsLetter/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/indexCopy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/indexCopy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/Font Awesome 5 Free-Solid-900.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/container-1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/container-2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/container-3@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/container@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/image-64@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/image-65@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/image-66@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/image-67@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/image@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/lockuporangesvg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/mask-group@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/copy/public/overlay@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/locco.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/locco.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/Font Awesome 5 Free-Solid-900.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/container-1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/container-2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/container-3@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/container@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/image-64@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/image-65@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/image-66@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/image-67@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/image@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/lockuporangesvg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/mask-group@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/locoo/public/overlay@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/.vscode/settings (2).json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/.vscode/settings (2).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/Js/Index-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/Js/Index-js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/Js/gaming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/Js/gaming.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/coffee.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/computer.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/css/sucess.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/css/success.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/css/xabickx.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/gaming.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/23358381_551.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/23358381_551.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/AppIcon-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/AppIcon-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/Flexbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/Flexbox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/SampleID.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/SampleID.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/Screenshot_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/Screenshot_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/Subscription.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/Subscription.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/anime.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/anime.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/avo-do.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/avo-do.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/banner-image-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/banner-image-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/basic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/basic1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/cellphone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/cellphone.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/coffeehouse2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/coffeehouse2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/img_favicon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/img_favicon3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/mac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/mac.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/image/workplace.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/workplace.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/Abhishek Shakya Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/Abhishek Shakya Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/blog1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/blog1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/blog2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/blog2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/blog3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/blog3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/hero1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/hero1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/port7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/port7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/img/portfolio.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/img/portfolio.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/styles/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/styles/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/styles/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/sucess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/trying.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio-Project_working/Portfolio-Project/xabickx.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/xabickx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio-Project/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/Hyperlink.html" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/Hyperlink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/coffee.htm" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/coffee.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/computer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/computer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/gaming.html" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/phone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/img/gamer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/img/gamer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/loader.html" beforeDir="false" afterPath="$PROJECT_DIR$/SuperFastInlineCSS/loader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InlineTailwindHTML/sucess.html" beforeDir="false" afterPath="$PROJECT_DIR$/TailwindCSSHTML/sucess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/.vscode/settings (2).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Js/Index-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Index-js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Js/gaming.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/gaming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/PraticeView/img/project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/PraticeView/img/project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/PraticeView/img/project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/PraticeView/portfolio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/PraticeView/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/css/success.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/23358381_551.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/23358381_551.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/Abhishek Shakya Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/img/Abhishek Shakya Resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/AppIcon-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/AppIcon-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/Flexbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Flexbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/SampleID.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/SampleID.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/Screenshot_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Screenshot_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/Subscription.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Subscription.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/avo-do.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/avo-do.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/banner-image-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/banner-image-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/basic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/basic1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/blog1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/blog1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/blog2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/blog2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/blog3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/blog3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/cellphone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cellphone.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/coffeehouse2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/coffeehouse2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/hero1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/hero1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/img_favicon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/img_favicon3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/mac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/mac.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/port7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/port7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/portfolio.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/img/workplace.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/xabickx.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/Viewtwo/xabickx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/23358381_551.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/Abhishek Shakya Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/AppIcon-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/Flexbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/SampleID.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/Screenshot_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/Subscription.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/avo-do.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/banner-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/basic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/cellphone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/coffeehouse2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/hero1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/img_favicon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/mac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/port7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/portfolio.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/img/workplace.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/styles/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/styles/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio-Project/styles/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/.stylelintrc" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/.stylelintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/package-sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/package-sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/footer-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/footer-bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/hero-bg-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/hero-bg-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/hero-bg-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/hero-bg-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-001.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-002.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-003.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-003.psd" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-003.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-004.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-004.psd" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-004.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-01.psd" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-01.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-02.psd" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-02.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-bg-01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-bg-01.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-bg-02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-bg-02.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-bg-03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-bg-03.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-feature-bg-04.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-feature-bg-04.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-hero copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-hero copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-hero-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-hero-bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/iphone-hero.psd" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/iphone-hero.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/abstracts/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/abstracts/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/abstracts/_include-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/abstracts/_include-media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/base/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/base/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_features-extended.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_features-extended.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/layout/_mockups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/layout/_mockups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SKY website/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SKY_website/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass_website" beforeDir="false" afterPath="$PROJECT_DIR$/Sass_website" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass_website/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Sass_website/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sass_website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sass_website/README.md" afterDir="false" />
@@ -153,7 +168,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Sass_website" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php-8.3.6\php.exe" />
@@ -199,25 +214,17 @@
       <recent name="$PROJECT_DIR$/Portfolio-Project/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/SuperFastInlineCSS" />
+      <recent name="$PROJECT_DIR$/SuperFastInlineCSS/resume" />
       <recent name="$PROJECT_DIR$/InlineTailwindHTML" />
-      <recent name="$PROJECT_DIR$/Portfolio-Project/img" />
-      <recent name="$PROJECT_DIR$/Portfolio-Project" />
-      <recent name="$PROJECT_DIR$/singleHTML" />
-      <recent name="$PROJECT_DIR$/singleHTML/img" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="xabickx.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/only-using-html-css/Portfolio-Project/xabickx.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
-        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
