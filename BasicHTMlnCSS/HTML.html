@@ -44,6 +44,8 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
 <!-- Our Body tag starts here -->
 
 <body>
+
+    <!--   1ST New htmlTutorial And section start -->
     <div class="htmlTutorial">
         <div class="container" id="Entities">
             <!-- HTML element is everything from the start tag to the end tag: -->
@@ -59,12 +61,12 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
             <p>Empty character is written like this ​ </p>
 
             <!-- The <a> tag defines a hyperlink.The href attribute specifies the URL of the page the link goes to -->
-            <!-- to open the website in a new tab then you have to add a new attribute in the anchor tag I.e. “target" -->
+            <!-- to open the website in a new tab, then you have to add a new attribute in the anchor tag I.e. “target" -->
             <a href="https://google.com" target="_blank">Go to google</a><br>
 
             <!--he <img> tag is used to embed an image in an HTML page. 
             The src attribute specifies the path to the image to be displayed. 
-            Image is not present hence alt text is shown.
+            The Image is not present, hence an alt text is shown.
             In the “alt" tag, we generally input a keyword of the image 
             that can define the image in case the user can’t see the image. -->
             <img src="https://source.unsplash.com/200x110/?nature,water" alt="remote image" width="233" height="334">
@@ -72,8 +74,8 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
 
         <div class="TableNLists">
             <ul type="circle">
-                <li>This is first item of my unordered list</li>
-                <li>This is second item of my unordered list</li>
+                <li>This is the first item of my unordered list</li>
+                <li>This is the second item of my unordered list</li>
 
                 <ul>
                     <li>Another one</li>
@@ -241,17 +243,17 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
         </div>
     </div>
 
+    <!--   2ND New CSS And section start -->
     <div class="css">
         <div class="inline-css">
-            <h3>This is CSS Tutorial</h3>
+            <h3 class="internal">This is CSS Tutorial</h3>
             <!-- <p style="color: red; background-color: yellow;">This tutorial will teach you everything you need to know about HTML/CSS</p> -->
-            <p class="internal">
-            <ul>
-                <li class="css"><strong>CSS gives style to raw HTML</strong></li>
-                <li class="css"><strong>It stands for Cascading Style Sheets</strong></li>
-                <li class="css"><strong>CSS is used to give style to our web pages</strong></li>
-                <li class="css"><strong>CSS is used to make websites responsive</strong></li>
-                <li class="css"><strong>CSS takes the responsibility of design in your websites</strong></li>
+            <ul class="mini">
+                <li class="project"><strong>CSS gives style to raw HTML</strong></li>
+                <li class="project"><strong>It stands for Cascading Style Sheets</strong></li>
+                <li class="project"><strong>CSS is used to give style to our web pages</strong></li>
+                <li class="project"><strong>CSS is used to make websites responsive</strong></li>
+                <li class="project"><strong>CSS takes the responsibility of design in your websites</strong></li>
             </ul>
             <details>CSS includes all the things which can be used to design the raw
                 HTML from coloring the background and texts, to adjust the borders,
@@ -266,9 +268,7 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
                 practice when different developers are working on a single website to keep the
                 skeleton of a website in one file and the styling in another file.<br><br>
             </details>
-            </p>
         </div>
-
         <div class="role">
             <h3>Role of CSS<br></h3>
             <ul>
@@ -278,37 +278,6 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
             </ul>
 
         </div>
-        <div>
-            <h4> The syntax of CSS is <br></h4>
-            <h2> P { color: blue; }</h2>
-            <img src="Sc1.png" alt="" width="500" height="220">
-            <ul>
-                <li><em>P</em> stands for the selector and it decides which part of the HTML the CSS will be applied. It
-                    states
-                    <em>where </em>the CSS property is to be applied.
-                </li>
-                <li>Property is used to describe which property you want to change or add. Whether you have to change
-                    colour,
-                    border, background, width, all these come under property.&nbsp;</li>
-                <li>The last section is for defining the value. All the properties will be changed according to the
-                    value we
-                    provide.</li>
-            </ul>
-        </div>
-
-        <div class="classes">
-            <h1> We can also target multiple properties at one time. The syntax is as follows<br></h1>
-            <p>header, p.intro { background-color: red;<br>
-                border-radius: 3px,<br>
-                }</p>
-            <img src="Scr2.png" alt="" width="500" height="200">
-            <p>In the above example, we have changed the <strong>header</strong> tag and the <strong>paragraph</strong>
-                tag with
-                a class <strong><em>intro</em>
-                </strong> to change the background colour to<strong> red
-                </strong> and border-radius to <strong>3 pixels.</strong></p>
-        </div>
-
         <div class="css-external">
             <p><strong>There are three ways to Add CSS-
                     Inline, Internal & External CSS
@@ -328,64 +297,64 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
                     </ul>
                 </li>
             </ul>
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div>
+            <h4> The syntax of CSS is <br></h4>
+            <h2> P { color: blue; }</h2>
+            <img src="Sc1.png" alt="" width="500" height="220">
+            <ul>
+                <li><em>P</em> stands for the selector, and it decides which part of the HTML the CSS will be applied.
+                    It
+                    states
+                    <em>where </em>the CSS property is to be applied.
+                </li>
+                <li>Property is used to describe which property you want to change or add. Whether you have to change
+                    colour,
+                    border, background, width, all these come under property.&nbsp;</li>
+                <li>The last section is for defining the value. All the properties will be changed according to the
+                    value we
+                    provide.</li>
+            </ul>
+        </div>
+        <div class="classes">
+            <h1> We can also target multiple properties at one time. The syntax is as follows<br></h1>
+            <p>header, p.intro { background-color: red;<br>
+                border-radius: 3px,<br>
+                }</p>
+            <img src="Scr2.png" alt="" width="500" height="200">
+            <p>In the above example, we have changed the <strong>header</strong> tag and the <strong>paragraph</strong>
+                tag with
+                a class <strong><em>intro</em>
+                </strong> to change the background colour to<strong> red
+                </strong> and border-radius to <strong>3 pixels.</strong></p>
+        </div>
 
     </div>
 
+
+    <!--  3rd  New Class And section start -->
     <div class="elementSelector">
-        <div>
+        <div class="redElement>
             <h3>CSS Selectors</h3>
-            <p id="firstPara">This is a simple paragraph to demonstrate css selectors</p>
-            <p id="secondPara" class="redElement bgBlue">This is a another simple paragraph to demonstrate css selectors
+            <!-- Height, width, borders and backgrounds  Selectors   -->
+            <p id=" firstPara">This is a simple paragraph to demonstrate css selectors</p>
+            <p id="secondPara">This is a another simple paragraph to demonstrate css selectors
             </p>
-            <div>
-                <p>This is yet another simple paragraph inside div to demonstrate css selectors</p>
-                <span>this is span</span>
-            </div>
+        </div>
+        <div class="cssFont">
+            <p>This is yet another simple paragraph inside div to demonstrate css selectors</p>
+            <span>this is span</span>
+        </div>
+        <div>
+            <h4>CSS Fonts</h4>
+            <p id="thirdPara">Lets play with <span>fonts</span>. It is very exciting</p>
             <footer>Using Chrome Developer Tools</footer>
         </div>
 
-        <div class="cssFont">
-            <h4>CSS Fonts</h4>
-            <p>Lets play with <span>fonts</span>. It is very exciting</p>
-        </div>
-
-        <!-- Height, width, borders and backgrounds  Selectors   -->
-        <div>
-            <h3>This is heading</h3>
-            <p id="firstPara">This is a paragraph</p>
-            <h3>This is second heading</h3>
-            <p id="secondPara">This is my second paragraph</p>
-            <h3>This is third heading</h3>
-            <p id="thirdPara">This is my third paragraph</p>
-        </div>
-
-
 
     </div>
 
+    <!--    4th New Class And section start -->
     <div class="boxModel">
         <div class="container">
             <h3>These parts can be explained as-</h3>
@@ -434,6 +403,8 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
         </div>
     </div>
 
+    <!--   5th alignment Class And section start -->
+
     <div class="alignment">
         <div class="containerAlign">
             <h1 class="headingOne">Float & Clear </h1>
@@ -475,12 +446,16 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
         </div>
     </div>
 
+    <!--    6th New Class And section start -->
+
     <div class="stylingLink_Button" id="cont1">
         <h3>Creating a Navigation Menu</h3>
         <p>A navigation bar is usually a list of links, so using the ul> and li> elements can help in obtaining it.</p>
         <a href="https://yahoo.com" class="btnA">Read more</a>
         <button class="btn">Contact us</button>
     </div>
+
+    <!-- New Class And section start -->
 
 
     <header>
@@ -496,6 +471,8 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
             </ul>
         </nav>
     </header>
+
+    <!--    New Class And section start -->
 
 
     <div class="containerDisplay">
@@ -528,160 +505,165 @@ should contain a standard IANA MIME name for character encodings. Moreover, auth
         </div>
     </div>
 
-    <!-- Position absolute, relative, fixed and sticky in CSS -->
-    <div class="displayContainer">
-        <div class="boxDisplay" id="box1">absolute position will move according to the position of its parent element
-            absence of any parent element, it will be relative to the browser window
+    <!--  positioning And section start -->
+    <div class="positioning">
+        <!-- Position absolute, relative, fixed and sticky in CSS -->
+        <div class="displayContainer">
+            <div class="boxDisplay" id="box1">absolute position will move according to the position of its parent
+                element
+                absence of any parent element, it will be relative to the browser window
+            </div>
+            <div class="boxDisplay" id="box2">fixed; will remain stuck to a specific position even after the page is
+                scrolled.
+                used to keep an HTML element at a fixed spot no matter where on the page the user is.
+            </div>
+            <div class="boxDisplay" id="box3">change the position from static to relative of box 3 and box3 has shifted
+                34px
+                away
+                from the top and left side relative to its normal position.</div>
+            <div class="boxDisplay" id="box4">4</div>
         </div>
-        <div class="boxDisplay" id="box2">fixed; will remain stuck to a specific position even after the page is
-            scrolled.
-            used to keep an HTML element at a fixed spot no matter where on the page the user is.
+
+        <div class="index">
+            <div class="indexBox" id="indexBox-1">This is indexBox</div>
+            <div class="indexBox" id="indexBox-2">This is indexBox</div>
+            <div class="indexBox" id="indexBox-3">This is indexBox</div>
+            <div class="indexBox" id="indexBox-4">This is indexBox</div>
         </div>
-        <div class="boxDisplay" id="box3">change the position from static to relative of box 3 and box3 has shifted 34px
-            away
-            from the top and left side relative to its normal position.</div>
-        <div class="boxDisplay" id="box4">4</div>
-    </div>
 
-    <div class="index">
-        <div class="indexBox" id="indexBox-1">This is indexBox</div>
-        <div class="indexBox" id="indexBox-2">This is indexBox</div>
-        <div class="indexBox" id="indexBox-3">This is indexBox</div>
-        <div class="indexBox" id="indexBox-4">This is indexBox</div>
-    </div>
-
-
-    <div class="containerFlex">
-        <h1>This is Flexbox Tutorial</h1>
-        <div class="itemFlex" id="itemFlex-1">First Box</div>
-        <div class="itemFlex" id="itemFlex-2">Second Box</div>
-        <div class="itemFlex" id="itemFlex-3">Third Box</div>
-        <!-- <div class="itemflex" id="itemflex-4">Fourth Box</div>
+        <div class="containerFlex">
+            <h1>This is Flexbox Tutorial</h1>
+            <div class="itemFlex" id="itemFlex-1">
+                First Box</div>
+            <div class="itemFlex" id="itemFlex-2">Second Box</div>
+            <div class="itemFlex" id="itemFlex-3">Third Box</div>
+            <!-- <div class="itemflex" id="itemflex-4">Fourth Box</div>
         <div class="itemflex" id="itemflex-5">Fifth Box</div>
         <div class="itemflex" id="itemflex-6">Sixth Box</div> -->
+        </div>
     </div>
 
 
-
-    <div class="containerSize">
-        <h1 class="headSize" id="second">rem-
-            <ul>
-                <li>
-                    <p>Font-size gets set according to the font-size of the root element.</p>
-                </li>
-                <li>
-                    <p>In general, &lt;html&gt; is the root element.</p>
-                </li>
-                <li>
-                    <p>In rem, "r" stands for "root."</p>
-                </li>
-            </ul>
-        </h1>
-        <h1 class="headSize" id="first">em-&nbsp;
-            <ul>
-                <li>
-                    <p>Font-sizes are inherited relative to the parent element.</p>
-                </li>
-                <li>
-                    <p>10em means ten times of the parent element.</p>
-                </li>
-            </ul>
-        </h1>
-        <h1 class="headSize" id="third">vw-
-            <ul>
-                <li>
-                    <p>It stands for viewport width.</p>
-                </li>
-                <li>
-                    <p>Similar to vh, vw is equal to the 1/100 times of the viewport width.</p>
-                </li>
-                <li>
-                    <p>Example: Suppose width of the browser is 1000px, so 1vw is equaled to (1/100)*1000= 10px.</p>
-                </li>
-            </ul>
-        </h1>
-
-    </div>
-
-    <div class="containerQueries">
-        <div class="boxQueries" id="boxQueries-1">Mai ek iPhone hoon</div>
-        <div class="boxQueries" id="boxQueries-2">Mai ek Tablet hoon</div>
-        <div class="boxQueries" id="boxQueries-3">Mai ek desktop computer hoon</div>
-        <div class="boxQueries" id="boxQueries-4">Mai ek widescreen computer hoon</div>
-    </div class="containerQueries">
-
-    <div class="containerSelectors">
-        <h1 class="selectors">This is more on selectors</h1>
-        <div class="selectorsbox">
-            <div class="selectorsrow">
+    <!--  Size and Queries Class And section start -->
+    <div class="size">
+        <div class="containerSize">
+            <h1 class="headSize" id="second">rem-
                 <ul>
-                    <li class="item">
-                        <p> this is another paragraph inside li</p>
+                    <li>
+                        <p>Font-size gets set according to the font-size of the root element.</p>
                     </li>
-                    <li>this will not get affected</li>
-                    <p>this is a para inside ul</p>
+                    <li>
+                        <p>In general, &lt;html&gt; is the root element.</p>
+                    </li>
+                    <li>
+                        <p>In rem, "r" stands for "root."</p>
+                    </li>
                 </ul>
-                <p>This is a paragraph</p>
+            </h1>
+            <h1 class="headSize" id="first">em-&nbsp;
+                <ul>
+                    <li>
+                        <p>Font-sizes are inherited relative to the parent element.</p>
+                    </li>
+                    <li>
+                        <p>10em means ten times of the parent element.</p>
+                    </li>
+                </ul>
+            </h1>
+            <h1 class="headSize" id="third">vw-
+                <ul>
+                    <li>
+                        <p>It stands for viewport width.</p>
+                    </li>
+                    <li>
+                        <p>Similar to vh, vw is equal to the 1/100 times of the viewport width.</p>
+                    </li>
+                    <li>
+                        <p>Example: Suppose width of the browser is 1000px, so 1vw is equaled to (1/100)*1000= 10px.</p>
+                    </li>
+                </ul>
+            </h1>
+        </div>
+        <div class="containerQueries">
+            <div class="boxQueries" id="boxQueries-1">Mai ek iPhone hoon</div>
+            <div class="boxQueries" id="boxQueries-2">Mai ek Tablet hoon</div>
+            <div class="boxQueries" id="boxQueries-3">Mai ek desktop computer hoon</div>
+            <div class="boxQueries" id="boxQueries-4">Mai ek widescreen computer hoon</div>
+        </div>
+    </div>
+
+
+    <!-- pseudoContainer And CSS Variables/Custom Properties -->
+    <div class="containerCss">
+        <div class="containerSelectors">
+            <h1 class="selectors">This is more on selectors</h1>
+            <div class="selectorsbox">
+                <div class="selectorsrow">
+                    <ul>
+                        <li class="item">
+                            <p> this is another paragraph inside li</p>
+                        </li>
+                        <li>this will not get affected</li>
+                        <p>this is a para inside ul</p>
+                    </ul>
+                    <p>This is a paragraph</p>
+                </div>
+                <p>This is another paragraph</p>
             </div>
-            <p>This is another paragraph</p>
+            <p>this is outermost paragraph</p>
         </div>
-        <p>this is outermost paragraph</p>
-    </div>
-
-    <div class="pseudoContainer">
-        <h1><a class="pseudoAnchorTag" href="http://google.com" target="_blank">Go to google</a></h1>
-        <h1><a  class="pseudoAnchorTag"href="http://facebook.com" target="_self">Go to Facebook</a></h1>
-        <form action="" class="form-control">
-            <input type="text" class="myInputClass" placeholder="Enter your name">
-            <input type="email" class="myInputClass" placeholder="Enter your email">
-            <input type="password" class="myInputClass" placeholder="Enter your password">
-            <input type="submit" value="Submit">
-        </form>
-        <ul>
-            <li class="itemAttribute" id="itemAttribute-1">Item1</li>
-            <li class="itemAttribute" id="itemAttribute-2">Item2</li>
-            <li class="itemAttribute" id="itemAttribute-3">Item3</li>
-            <li class="itemAttribute" id="itemAttribute-4">Item4</li>
-            <li class="itemAttribute" id="itemAttribute-5">Item5</li>
-            <li class="itemAttribute" id="itemAttribute-6">Item6</li>
-            <li class="itemAttribute" id="itemAttribute-7">Item7</li>
-            <li class="itemAttribute" id="itemAttribute-8">Item8</li>
-            <li class="itemAttribute" id="itemAttribute-9">Item9</li>
-            <li class="itemAttribute" id="itemAttribute-10">Item10</li>
-        </ul>
-    </div>
-
-    <div class="akon">CSS Variables/Custom Properties
-        <div class="Kon"></div>
-        <div class="Kon"></div>
-        <div class="Kon"></div>
-    </div>
-
-    <div class="containerAnimations">
-        Keyframes and Animations
-        <div class="boxKeyframes">
-            This is a box
+        <!--    New Class And section start -->
+        <div class="pseudoContainer">
+            <h1><a class="pseudoAnchorTag" href="http://google.com" target="_blank">Go to google</a></h1>
+            <h1><a class="pseudoAnchorTag" href="http://facebook.com" target="_self">Go to Facebook</a></h1>
+            <form action="" class="form-control">
+                <input type="text" class="myInputClass" placeholder="Enter your name">
+                <input type="email" class="myInputClass" placeholder="Enter your email">
+                <input type="password" class="myInputClass" placeholder="Enter your password">
+                <input type="submit" value="Submit">
+            </form>
+            <ul>
+                <li class="itemAttribute" id="itemAttribute-1">Item1</li>
+                <li class="itemAttribute" id="itemAttribute-2">Item2</li>
+                <li class="itemAttribute" id="itemAttribute-3">Item3</li>
+                <li class="itemAttribute" id="itemAttribute-4">Item4</li>
+                <li class="itemAttribute" id="itemAttribute-5">Item5</li>
+                <li class="itemAttribute" id="itemAttribute-6">Item6</li>
+                <li class="itemAttribute" id="itemAttribute-7">Item7</li>
+                <li class="itemAttribute" id="itemAttribute-8">Item8</li>
+                <li class="itemAttribute" id="itemAttribute-9">Item9</li>
+                <li class="itemAttribute" id="itemAttribute-10">Item10</li>
+            </ul>
         </div>
-    </div>
-    <div class="containerTransform">
-        CSS Transform
-        <div class="boxTransform">This is a box</div>
-    </div>
-
-    <div class="containerTransitions">
-        CSS Transitions
-        <div id="boxTransitions">
-            This is my box
+        <div class="Variables">CSS Variables/Custom Properties
+            <div class="Properties"></div>
+            <div class="Properties"></div>
+            <div class="Properties"></div>
         </div>
     </div>
 
 
+    <!--   Last animation Css Class And section start -->
+    <div class="containerCss">
+        <div class="containerAnimations">
+            Keyframes and Animations
+            <div class="boxKeyframes">
+                This is a box
+            </div>
+        </div>
 
+        <div class="containerTransform">
+            CSS Transform
+            <div class="boxTransform">This is a box</div>
+        </div>
+
+        <div class="containerTransitions">
+            CSS Transitions
+            <div id="boxTransitions">
+                This is my box
+            </div>
+        </div>
+    </div>
 </body>
-
-
-
-
-
 
 </html>
